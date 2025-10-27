@@ -10,6 +10,8 @@ namespace _4BIO.Test.Application.Client.UseCases.Create
 {
     public class ClientCreateResponse : IResponse
     {
+        public bool Success { get; set; }
+        public string Message { get; set; } = string.Empty;
         public ClientDto Cliente { get; set; }
 
         public ClientCreateResponse()

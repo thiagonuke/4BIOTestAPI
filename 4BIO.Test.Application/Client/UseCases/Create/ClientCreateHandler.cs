@@ -1,10 +1,12 @@
-﻿using _4BIO.Test.Application.Shared.Abstractions;
+﻿using _4BIO.Test.Application.Client.UseCases.Delete;
+using _4BIO.Test.Application.Shared.Abstractions;
 using _4BIO.Test.Domain.Entities;
 using _4BIO.Test.Domain.Interfaces.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace _4BIO.Test.Application.Client.UseCases.Create
@@ -25,21 +27,27 @@ namespace _4BIO.Test.Application.Client.UseCases.Create
 
             ListCliente = ListCliente ?? new List<Cliente>();
 
+            if (ListCliente.Any(t => t.CPF == command.Cliente.CPF)) return Task.FromResult(new ClientCreateResponse() { Message = "O CPF já está cadastrado!", Success = false });
+           
+            int IdBd = ListCliente.Any() ? ListCliente.Max(c => c.Id) + 1 : 1;
+           
             ListCliente.Add(new Cliente()
             {
-                Id = ListCliente.Any() ? ListCliente.Max(c => c.Id) + 1 : 1,
+                Id = IdBd,
                 Nome = command.Cliente.Nome,
                 Email = command.Cliente.Email,
                 CPF = command.Cliente.CPF,
                 RG = command.Cliente.RG,
                 Contatos = new Domain.Entities.Contatos()
                 {
+                    Id = IdBd,
                     Tipo = command.Cliente.Contatos.Tipo,
                     DDD = command.Cliente.Contatos.DDD,
                     Telefone = command.Cliente.Contatos.Telefone
                 },
                 Enderecos = new Domain.Entities.Enderecos()
                 {
+                    Id = IdBd,
                     Tipo = command.Cliente.Enderecos.Tipo,
                     CEP = command.Cliente.Enderecos.CEP,
                     Logradouro = command.Cliente.Enderecos.Logradouro,
@@ -54,9 +62,14 @@ namespace _4BIO.Test.Application.Client.UseCases.Create
 
             _clientRepository.Create(ListCliente);
 
+            command.Cliente.Id = IdBd;
+            command.Cliente.Enderecos.Id = IdBd;
+            command.Cliente.Contatos.Id = IdBd;
 
             return Task.FromResult(new ClientCreateResponse()
             {
+                Message = "Salvo com sucesso!",
+                Success = true,
                 Cliente = command.Cliente,
             });
 

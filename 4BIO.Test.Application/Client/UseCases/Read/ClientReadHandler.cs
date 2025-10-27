@@ -37,12 +37,14 @@ namespace _4BIO.Test.Application.Client.UseCases.Read
             {
                 var itemBd = new Dtos.ClientDto()
                 {
+                    Id = item.Id,
                     Nome = item.Nome,
                     Email = item.Email,
                     CPF = item.CPF,
                     RG = item.RG,
                     Enderecos = new Dtos.EnderecoDto()
                     {
+                        Id = item.Enderecos.Id,
                         Tipo = item.Enderecos.Tipo,
                         CEP = item.Enderecos.CEP,
                         Logradouro = item.Enderecos.Logradouro,
@@ -54,6 +56,7 @@ namespace _4BIO.Test.Application.Client.UseCases.Read
                         Referencia = item.Enderecos.Referencia
                     },
                     Contatos = new Dtos.ContatoDto() { 
+                        Id = item.Contatos.Id,
                         DDD = item.Contatos.DDD, 
                         Telefone = item.Contatos.Telefone, 
                         Tipo = item.Contatos.Tipo

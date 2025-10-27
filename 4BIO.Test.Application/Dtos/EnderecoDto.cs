@@ -8,6 +8,7 @@ namespace _4BIO.Test.Application.Dtos
 {
     public class EnderecoDto
     {
+        public int Id { get; set; }
         public string Tipo { get; set; } = string.Empty;
         public string CEP { get; set; } = string.Empty;
         public string Logradouro { get; set; } = string.Empty;

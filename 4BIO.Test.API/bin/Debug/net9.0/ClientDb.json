@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "Id": 1,
+    "Nome": "Carlos Pereira",
+    "Email": "carlos.pereira@email.com",
+    "CPF": "45678912300",
+    "RG": "RJ9876543",
+    "Contatos": {
+      "Id": 1,
+      "Tipo": "Celular",
+      "DDD": 21,
+      "Telefone": 998877665
+    },
+    "Enderecos": {
+      "Id": 1,
+      "Tipo": "Entrega",
+      "CEP": "22041001",
+      "Logradouro": "Rua das Laranjeiras",
+      "Numero": 250,
+      "Bairro": "Laranjeiras",
+      "Complemento": "Casa 2",
+      "Cidade": "Rio de Janeiro",
+      "Estado": "RJ",
+      "Referencia": "Em frente ao parque"
+    }
+  },
+  {
+    "Id": 2,
+    "Nome": "Maria Oliveira",
+    "Email": "maria.oliveira@email.com",
+    "CPF": "98765432100",
+    "RG": "SP7654321",
+    "Contatos": {
+      "Id": 2,
+      "Tipo": "Residencial",
+      "DDD": 11,
+      "Telefone": 34567890
+    },
+    "Enderecos": {
+      "Id": 2,
+      "Tipo": "Entrega",
+      "CEP": "01234567",
+      "Logradouro": "Avenida Paulista",
+      "Numero": 1500,
+      "Bairro": "Bela Vista",
+      "Complemento": "Sala 305",
+      "Cidade": "São Paulo",
+      "Estado": "SP",
+      "Referencia": "Próximo ao MASP"
+    }
+  }
+]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("4BIO.Test.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b44e65367a4ad2b3f5f8ee0237f1039539f3d0a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1191c780764ed86d07d7a889993637cd5eab6bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("4BIO.Test.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("4BIO.Test.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

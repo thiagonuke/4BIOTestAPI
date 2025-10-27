@@ -172,6 +172,13 @@
       "ClientCreateResponse": {
         "type": "object",
         "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
           "cliente": {
             "$ref": "#/components/schemas/ClientDto"
           }
@@ -194,6 +201,10 @@
       "ClientDto": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
           "nome": {
             "type": "string",
             "nullable": true
@@ -260,6 +271,10 @@
       "ContatoDto": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
           "tipo": {
             "type": "string",
             "nullable": true
@@ -278,6 +293,10 @@
       "EnderecoDto": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
           "tipo": {
             "type": "string",
             "nullable": true

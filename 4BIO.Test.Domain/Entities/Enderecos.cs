@@ -8,7 +8,7 @@ namespace _4BIO.Test.Domain.Entities
 {
     public class Enderecos
     {
-        public int id { get; set; }
+        public int Id { get; set; }
         public string Tipo { get; set; } = string.Empty;
         public string CEP { get; set; } = string.Empty;
         public string Logradouro { get; set; } = string.Empty;
