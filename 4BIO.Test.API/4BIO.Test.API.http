@@ -1,0 +1,6 @@
+@_4BIO.Test.API_HostAddress = http://localhost:5298
+
+GET {{_4BIO.Test.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

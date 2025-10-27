@@ -1,0 +1,583 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projetos\\git\\4BIOTestAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\client\\usecases\\delete\\clientdeletehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\client\\usecases\\delete\\clientdeletehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\client\\usecases\\update\\clientupdatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\client\\usecases\\update\\clientupdatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33B3963-E6B8-489C-AB79-949BE5ACEB9D}|4BIO.Test.API\\4BIO.Test.API.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.api\\routes\\client\\clientroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33B3963-E6B8-489C-AB79-949BE5ACEB9D}|4BIO.Test.API\\4BIO.Test.API.csproj|solutionrelative:4bio.test.api\\routes\\client\\clientroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\client\\usecases\\update\\clientupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\client\\usecases\\update\\clientupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33B3963-E6B8-489C-AB79-949BE5ACEB9D}|4BIO.Test.API\\4BIO.Test.API.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.api\\validator\\client\\clientupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33B3963-E6B8-489C-AB79-949BE5ACEB9D}|4BIO.Test.API\\4BIO.Test.API.csproj|solutionrelative:4bio.test.api\\validator\\client\\clientupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33B3963-E6B8-489C-AB79-949BE5ACEB9D}|4BIO.Test.API\\4BIO.Test.API.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.api\\validator\\client\\clientcreatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33B3963-E6B8-489C-AB79-949BE5ACEB9D}|4BIO.Test.API\\4BIO.Test.API.csproj|solutionrelative:4bio.test.api\\validator\\client\\clientcreatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33B3963-E6B8-489C-AB79-949BE5ACEB9D}|4BIO.Test.API\\4BIO.Test.API.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.api\\validator\\shared\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33B3963-E6B8-489C-AB79-949BE5ACEB9D}|4BIO.Test.API\\4BIO.Test.API.csproj|solutionrelative:4bio.test.api\\validator\\shared\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\client\\usecases\\create\\clientcreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\client\\usecases\\create\\clientcreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\dtos\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\dtos\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\client\\usecases\\update\\clientupdateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\client\\usecases\\update\\clientupdateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\client\\usecases\\create\\clientcreatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\client\\usecases\\create\\clientcreatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\client\\usecases\\delete\\clientdeletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\client\\usecases\\delete\\clientdeletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\client\\usecases\\read\\clientreadcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\client\\usecases\\read\\clientreadcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\client\\usecases\\read\\clientreadhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\client\\usecases\\read\\clientreadhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0907923-4283-4F74-BB45-AEC5CDD3E3BF}|4BIO.Test.Data\\4BIO.Test.Data.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0907923-4283-4F74-BB45-AEC5CDD3E3BF}|4BIO.Test.Data\\4BIO.Test.Data.csproj|solutionrelative:4bio.test.data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0907923-4283-4F74-BB45-AEC5CDD3E3BF}|4BIO.Test.Data\\4BIO.Test.Data.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.data\\context\\jsondatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0907923-4283-4F74-BB45-AEC5CDD3E3BF}|4BIO.Test.Data\\4BIO.Test.Data.csproj|solutionrelative:4bio.test.data\\context\\jsondatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFDCA7C-A76B-4B1D-A268-75178D4845DA}|4BIO.Test.Domain\\4BIO.Test.Domain.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.domain\\interfaces\\ijsondatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFDCA7C-A76B-4B1D-A268-75178D4845DA}|4BIO.Test.Domain\\4BIO.Test.Domain.csproj|solutionrelative:4bio.test.domain\\interfaces\\ijsondatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\client\\usecases\\read\\clientreadresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\client\\usecases\\read\\clientreadresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\client\\usecases\\create\\clientcreateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\client\\usecases\\create\\clientcreateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\client\\usecases\\delete\\clientdeleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\client\\usecases\\delete\\clientdeleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFDCA7C-A76B-4B1D-A268-75178D4845DA}|4BIO.Test.Domain\\4BIO.Test.Domain.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.domain\\interfaces\\client\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFDCA7C-A76B-4B1D-A268-75178D4845DA}|4BIO.Test.Domain\\4BIO.Test.Domain.csproj|solutionrelative:4bio.test.domain\\interfaces\\client\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0907923-4283-4F74-BB45-AEC5CDD3E3BF}|4BIO.Test.Data\\4BIO.Test.Data.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.data\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0907923-4283-4F74-BB45-AEC5CDD3E3BF}|4BIO.Test.Data\\4BIO.Test.Data.csproj|solutionrelative:4bio.test.data\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFDCA7C-A76B-4B1D-A268-75178D4845DA}|4BIO.Test.Domain\\4BIO.Test.Domain.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.domain\\interfaces\\client\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFDCA7C-A76B-4B1D-A268-75178D4845DA}|4BIO.Test.Domain\\4BIO.Test.Domain.csproj|solutionrelative:4bio.test.domain\\interfaces\\client\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFDCA7C-A76B-4B1D-A268-75178D4845DA}|4BIO.Test.Domain\\4BIO.Test.Domain.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFDCA7C-A76B-4B1D-A268-75178D4845DA}|4BIO.Test.Domain\\4BIO.Test.Domain.csproj|solutionrelative:4bio.test.domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\dtos\\enderecodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\dtos\\enderecodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\dtos\\contatodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\dtos\\contatodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\shared\\abstractions\\ihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\shared\\abstractions\\ihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFDCA7C-A76B-4B1D-A268-75178D4845DA}|4BIO.Test.Domain\\4BIO.Test.Domain.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.domain\\entities\\contatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFDCA7C-A76B-4B1D-A268-75178D4845DA}|4BIO.Test.Domain\\4BIO.Test.Domain.csproj|solutionrelative:4bio.test.domain\\entities\\contatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAFDCA7C-A76B-4B1D-A268-75178D4845DA}|4BIO.Test.Domain\\4BIO.Test.Domain.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.domain\\entities\\enderecos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAFDCA7C-A76B-4B1D-A268-75178D4845DA}|4BIO.Test.Domain\\4BIO.Test.Domain.csproj|solutionrelative:4bio.test.domain\\entities\\enderecos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0907923-4283-4F74-BB45-AEC5CDD3E3BF}|4BIO.Test.Data\\4BIO.Test.Data.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.data\\servicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0907923-4283-4F74-BB45-AEC5CDD3E3BF}|4BIO.Test.Data\\4BIO.Test.Data.csproj|solutionrelative:4bio.test.data\\servicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33B3963-E6B8-489C-AB79-949BE5ACEB9D}|4BIO.Test.API\\4BIO.Test.API.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A33B3963-E6B8-489C-AB79-949BE5ACEB9D}|4BIO.Test.API\\4BIO.Test.API.csproj|solutionrelative:4bio.test.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33B3963-E6B8-489C-AB79-949BE5ACEB9D}|4BIO.Test.API\\4BIO.Test.API.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.api\\4bio.test.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A33B3963-E6B8-489C-AB79-949BE5ACEB9D}|4BIO.Test.API\\4BIO.Test.API.csproj|solutionrelative:4bio.test.api\\4bio.test.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\shared\\abstractions\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\shared\\abstractions\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|c:\\projetos\\git\\4biotestapi\\4bio.test.application\\shared\\abstractions\\iresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F2E2DD-9932-4B14-A740-9797BCAAB0DE}|4BIO.Test.Application\\4BIO.Test.Application.csproj|solutionrelative:4bio.test.application\\shared\\abstractions\\iresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 255,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientUpdateValidator.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.API\\Validator\\Client\\ClientUpdateValidator.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.API\\Validator\\Client\\ClientUpdateValidator.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.API\\Validator\\Client\\ClientUpdateValidator.cs",
+              "RelativeToolTip": "4BIO.Test.API\\Validator\\Client\\ClientUpdateValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T05:31:58.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IJsonDatabase.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\Interfaces\\IJsonDatabase.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Domain\\Interfaces\\IJsonDatabase.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\Interfaces\\IJsonDatabase.cs",
+              "RelativeToolTip": "4BIO.Test.Domain\\Interfaces\\IJsonDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T03:51:52.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientUpdateResponse.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Update\\ClientUpdateResponse.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Client\\UseCases\\Update\\ClientUpdateResponse.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Update\\ClientUpdateResponse.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Client\\UseCases\\Update\\ClientUpdateResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T03:27:18.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientUpdateHandler.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Update\\ClientUpdateHandler.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Client\\UseCases\\Update\\ClientUpdateHandler.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Update\\ClientUpdateHandler.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Client\\UseCases\\Update\\ClientUpdateHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T03:26:58.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientUpdateCommand.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Update\\ClientUpdateCommand.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Client\\UseCases\\Update\\ClientUpdateCommand.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Update\\ClientUpdateCommand.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Client\\UseCases\\Update\\ClientUpdateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T03:24:57.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ClientDeleteResponse.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Delete\\ClientDeleteResponse.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Client\\UseCases\\Delete\\ClientDeleteResponse.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Delete\\ClientDeleteResponse.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Client\\UseCases\\Delete\\ClientDeleteResponse.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T23:56:18.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClientDeleteCommand.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Delete\\ClientDeleteCommand.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Client\\UseCases\\Delete\\ClientDeleteCommand.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Delete\\ClientDeleteCommand.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Client\\UseCases\\Delete\\ClientDeleteCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T23:55:53.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientDeleteHandler.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Delete\\ClientDeleteHandler.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Client\\UseCases\\Delete\\ClientDeleteHandler.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Delete\\ClientDeleteHandler.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Client\\UseCases\\Delete\\ClientDeleteHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBgAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T23:55:30.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ContatoDto.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Dtos\\ContatoDto.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Dtos\\ContatoDto.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Dtos\\ContatoDto.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Dtos\\ContatoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T07:36:26.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EnderecoDto.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Dtos\\EnderecoDto.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Dtos\\EnderecoDto.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Dtos\\EnderecoDto.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Dtos\\EnderecoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T07:36:06.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientDto.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Dtos\\ClientDto.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Dtos\\ClientDto.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Dtos\\ClientDto.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Dtos\\ClientDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIAwwBIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T07:35:19.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClientReadResponse.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Read\\ClientReadResponse.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Client\\UseCases\\Read\\ClientReadResponse.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Read\\ClientReadResponse.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Client\\UseCases\\Read\\ClientReadResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T06:15:30.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClientReadHandler.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Read\\ClientReadHandler.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Client\\UseCases\\Read\\ClientReadHandler.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Read\\ClientReadHandler.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Client\\UseCases\\Read\\ClientReadHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T06:15:17.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClientReadCommand.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Read\\ClientReadCommand.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Client\\UseCases\\Read\\ClientReadCommand.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Read\\ClientReadCommand.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Client\\UseCases\\Read\\ClientReadCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T06:14:58.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "JsonDatabase.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Data\\Context\\JsonDatabase.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Data\\Context\\JsonDatabase.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Data\\Context\\JsonDatabase.cs",
+              "RelativeToolTip": "4BIO.Test.Data\\Context\\JsonDatabase.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T01:32:51.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.API\\appsettings.json",
+              "RelativeDocumentMoniker": "4BIO.Test.API\\appsettings.json",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.API\\appsettings.json",
+              "RelativeToolTip": "4BIO.Test.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-26T01:27:54.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Data\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Data\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Data\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "4BIO.Test.Data\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T01:15:44.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\Interfaces\\Client\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Domain\\Interfaces\\Client\\IBaseRepository.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\Interfaces\\Client\\IBaseRepository.cs",
+              "RelativeToolTip": "4BIO.Test.Domain\\Interfaces\\Client\\IBaseRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T01:15:16.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Data\\Repositories\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Data\\Repositories\\ClientRepository.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Data\\Repositories\\ClientRepository.cs",
+              "RelativeToolTip": "4BIO.Test.Data\\Repositories\\ClientRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T15:50:12.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientCreateValidator.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.API\\Validator\\Client\\ClientCreateValidator.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.API\\Validator\\Client\\ClientCreateValidator.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.API\\Validator\\Client\\ClientCreateValidator.cs",
+              "RelativeToolTip": "4BIO.Test.API\\Validator\\Client\\ClientCreateValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T15:42:08.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ValidationFilter.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.API\\Validator\\Shared\\ValidationFilter.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.API\\Validator\\Shared\\ValidationFilter.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.API\\Validator\\Shared\\ValidationFilter.cs",
+              "RelativeToolTip": "4BIO.Test.API\\Validator\\Shared\\ValidationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T15:14:39.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "4BIO.Test.API.csproj",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.API\\4BIO.Test.API.csproj",
+              "RelativeDocumentMoniker": "4BIO.Test.API\\4BIO.Test.API.csproj",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.API\\4BIO.Test.API.csproj",
+              "RelativeToolTip": "4BIO.Test.API\\4BIO.Test.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T06:13:07.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientCreateHandler.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Create\\ClientCreateHandler.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Client\\UseCases\\Create\\ClientCreateHandler.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Create\\ClientCreateHandler.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Client\\UseCases\\Create\\ClientCreateHandler.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T05:32:49.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ClientCreateResponse.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Create\\ClientCreateResponse.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Client\\UseCases\\Create\\ClientCreateResponse.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Create\\ClientCreateResponse.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Client\\UseCases\\Create\\ClientCreateResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T05:32:38.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientCreateCommand.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Create\\ClientCreateCommand.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Client\\UseCases\\Create\\ClientCreateCommand.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Client\\UseCases\\Create\\ClientCreateCommand.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Client\\UseCases\\Create\\ClientCreateCommand.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAASwBEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T05:32:29.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IResponse.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Shared\\Abstractions\\IResponse.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Shared\\Abstractions\\IResponse.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Shared\\Abstractions\\IResponse.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Shared\\Abstractions\\IResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T05:28:52.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IHandler.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Shared\\Abstractions\\IHandler.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Shared\\Abstractions\\IHandler.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Shared\\Abstractions\\IHandler.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Shared\\Abstractions\\IHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T05:28:43.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Shared\\Abstractions\\ICommand.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\Shared\\Abstractions\\ICommand.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\Shared\\Abstractions\\ICommand.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\Shared\\Abstractions\\ICommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T05:28:28.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Application\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Application\\ServiceExtensions.cs",
+              "RelativeToolTip": "4BIO.Test.Application\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T05:26:37.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ServicesExtensions.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Data\\ServicesExtensions.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Data\\ServicesExtensions.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Data\\ServicesExtensions.cs",
+              "RelativeToolTip": "4BIO.Test.Data\\ServicesExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T05:26:12.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IClientRepository.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\Interfaces\\Client\\IClientRepository.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Domain\\Interfaces\\Client\\IClientRepository.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\Interfaces\\Client\\IClientRepository.cs",
+              "RelativeToolTip": "4BIO.Test.Domain\\Interfaces\\Client\\IClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T05:24:32.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientRoutes.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.API\\Routes\\Client\\ClientRoutes.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.API\\Routes\\Client\\ClientRoutes.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.API\\Routes\\Client\\ClientRoutes.cs",
+              "RelativeToolTip": "4BIO.Test.API\\Routes\\Client\\ClientRoutes.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:42:13.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Enderecos.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\Entities\\Enderecos.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Domain\\Entities\\Enderecos.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\Entities\\Enderecos.cs",
+              "RelativeToolTip": "4BIO.Test.Domain\\Entities\\Enderecos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:30:09.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Contatos.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\Entities\\Contatos.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Domain\\Entities\\Contatos.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\Entities\\Contatos.cs",
+              "RelativeToolTip": "4BIO.Test.Domain\\Entities\\Contatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:29:58.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\Entities\\Cliente.cs",
+              "RelativeDocumentMoniker": "4BIO.Test.Domain\\Entities\\Cliente.cs",
+              "ToolTip": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\Entities\\Cliente.cs",
+              "RelativeToolTip": "4BIO.Test.Domain\\Entities\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:27:03.169Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "ContainingType": "_4BIO.Test.API.Routes.Client.ClientRoutes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapClientRoutes\u003Eb__0_3",
+    "RelativePath": "cliente/atualizar/{cpf}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "_4BIO.Test.Application.Client.UseCases.Update.ClientUpdateCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "cpf",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_4BIO.Test.Application.Client.UseCases.Update.ClientUpdateResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Clientes"
+    ],
+    "EndpointName": "AtualizarCliente",
+    "Description": "Atualiza as informa\u00E7\u00F5es de um cliente existente com base no CPF informado. O corpo da requisi\u00E7\u00E3o deve conter os novos dados do cliente.",
+    "Summary": "Atualiza dados de um cliente"
+  },
+  {
+    "ContainingType": "_4BIO.Test.API.Routes.Client.ClientRoutes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapClientRoutes\u003Eb__0_0",
+    "RelativePath": "cliente/criar",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "_4BIO.Test.Application.Client.UseCases.Create.ClientCreateCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_4BIO.Test.Application.Client.UseCases.Create.ClientCreateResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Clientes"
+    ],
+    "EndpointName": "CriarCliente",
+    "Description": "Endpoint respons\u00E1vel por registrar um novo cliente no sistema. Valida os dados obrigat\u00F3rios (Nome, Email, CPF, RG e contatos).",
+    "Summary": "Cria um novo cliente"
+  },
+  {
+    "ContainingType": "_4BIO.Test.API.Routes.Client.ClientRoutes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapClientRoutes\u003Eb__0_1",
+    "RelativePath": "cliente/listar",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cpf",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_4BIO.Test.Application.Client.UseCases.Read.ClientReadResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Clientes"
+    ],
+    "EndpointName": "ListarClientes",
+    "Description": "Retorna uma lista de clientes filtrada por nome, email ou CPF. Se nenhum filtro for informado, retorna todos os clientes cadastrados.",
+    "Summary": "Lista clientes cadastrados"
+  },
+  {
+    "ContainingType": "_4BIO.Test.API.Routes.Client.ClientRoutes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapClientRoutes\u003Eb__0_2",
+    "RelativePath": "cliente/remover/{cpf}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cpf",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_4BIO.Test.Application.Client.UseCases.Delete.ClientDeleteResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Clientes"
+    ],
+    "EndpointName": "RemoverCliente",
+    "Description": "Remove o cliente cujo CPF for informado na rota. Caso o CPF n\u00E3o exista, retorna uma mensagem de erro.",
+    "Summary": "Remove um cliente pelo CPF"
+  }
+]
