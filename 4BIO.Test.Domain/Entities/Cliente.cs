@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Swashbuckle.AspNetCore.Annotations;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace _4BIO.Test.Domain.Entities
 {
     public class Cliente
     {
+        [SwaggerSchema(ReadOnly = true, Description = "ID gerado automaticamente pelo banco")]
         public int Id { get; set; }
         public string Nome { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;

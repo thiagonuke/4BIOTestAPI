@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("4BIO.Test.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48c8a82815a5dc45695f26e02256220fdfa66d1c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+031b24c706e8a0ef287d04eae9add9edd869b890")]
 [assembly: System.Reflection.AssemblyProductAttribute("4BIO.Test.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("4BIO.Test.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

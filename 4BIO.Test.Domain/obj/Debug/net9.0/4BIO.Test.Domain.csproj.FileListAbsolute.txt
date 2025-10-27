@@ -21,3 +21,4 @@ C:\Projetos\git\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\4BIO.Test.Domain.d
 C:\Projetos\git\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\refint\4BIO.Test.Domain.dll
 C:\Projetos\git\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\4BIO.Test.Domain.pdb
 C:\Projetos\git\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\ref\4BIO.Test.Domain.dll
+C:\Projetos\git\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\4BIO.Test.Domain.csproj.AssemblyReference.cache

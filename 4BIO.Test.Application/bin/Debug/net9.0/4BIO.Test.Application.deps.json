@@ -59,6 +59,9 @@
         }
       },
       "4BIO.Test.Domain/1.0.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Annotations": "9.0.6"
+        },
         "runtime": {
           "4BIO.Test.Domain.dll": {
             "assemblyVersion": "1.0.0.0",
