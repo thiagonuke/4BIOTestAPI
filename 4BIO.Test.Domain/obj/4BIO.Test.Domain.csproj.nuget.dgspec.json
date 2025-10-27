@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\4BIO.Test.Domain.csproj": {}
+    "C:\\Projetos\\git2\\4BIOTestAPI\\4BIO.Test.Domain\\4BIO.Test.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\4BIO.Test.Domain.csproj": {
+    "C:\\Projetos\\git2\\4BIOTestAPI\\4BIO.Test.Domain\\4BIO.Test.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\4BIO.Test.Domain.csproj",
+        "projectUniqueName": "C:\\Projetos\\git2\\4BIOTestAPI\\4BIO.Test.Domain\\4BIO.Test.Domain.csproj",
         "projectName": "4BIO.Test.Domain",
-        "projectPath": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\4BIO.Test.Domain.csproj",
+        "projectPath": "C:\\Projetos\\git2\\4BIOTestAPI\\4BIO.Test.Domain\\4BIO.Test.Domain.csproj",
         "packagesPath": "C:\\Users\\mthia\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\git\\4BIOTestAPI\\4BIO.Test.Domain\\obj\\",
+        "outputPath": "C:\\Projetos\\git2\\4BIOTestAPI\\4BIO.Test.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

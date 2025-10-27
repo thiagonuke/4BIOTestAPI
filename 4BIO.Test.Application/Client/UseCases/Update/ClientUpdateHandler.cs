@@ -63,6 +63,11 @@ namespace _4BIO.Test.Application.Client.UseCases.Update
 
             _clientRepository.Create(ListCliente);
 
+
+            command.Cliente.Id = IdDb;
+            command.Cliente.Enderecos.Id = IdDb;
+            command.Cliente.Contatos.Id = IdDb;
+
             return Task.FromResult(new ClientUpdateResponse()
             {
                 Message = "Atualizado com sucesso!",

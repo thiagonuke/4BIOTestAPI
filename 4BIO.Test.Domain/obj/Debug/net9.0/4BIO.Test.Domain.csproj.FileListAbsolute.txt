@@ -22,3 +22,16 @@ C:\Projetos\git\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\refint\4BIO.Test.D
 C:\Projetos\git\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\4BIO.Test.Domain.pdb
 C:\Projetos\git\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\ref\4BIO.Test.Domain.dll
 C:\Projetos\git\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\4BIO.Test.Domain.csproj.AssemblyReference.cache
+C:\Projetos\git2\4BIOTestAPI\4BIO.Test.Domain\bin\Debug\net9.0\4BIO.Test.Domain.deps.json
+C:\Projetos\git2\4BIOTestAPI\4BIO.Test.Domain\bin\Debug\net9.0\4BIO.Test.Domain.dll
+C:\Projetos\git2\4BIOTestAPI\4BIO.Test.Domain\bin\Debug\net9.0\4BIO.Test.Domain.pdb
+C:\Projetos\git2\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\4BIO.Test.Domain.csproj.AssemblyReference.cache
+C:\Projetos\git2\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\4BIO.Test.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\git2\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\4BIO.Test.Domain.AssemblyInfoInputs.cache
+C:\Projetos\git2\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\4BIO.Test.Domain.AssemblyInfo.cs
+C:\Projetos\git2\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\4BIO.Test.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\git2\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\4BIO.Test.Domain.sourcelink.json
+C:\Projetos\git2\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\4BIO.Test.Domain.dll
+C:\Projetos\git2\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\refint\4BIO.Test.Domain.dll
+C:\Projetos\git2\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\4BIO.Test.Domain.pdb
+C:\Projetos\git2\4BIOTestAPI\4BIO.Test.Domain\obj\Debug\net9.0\ref\4BIO.Test.Domain.dll
